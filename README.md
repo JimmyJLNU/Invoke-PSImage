@@ -7,7 +7,7 @@ It can either create a new image using only the payload data, or it can embed th
 
 With the embed method, the least significant 4 bits of 2 color values in each pixel are used to hold the payload. Image quality will suffer as a result, but it still looks decent. It can accept most image types as input, but output will always be a PNG because it needs to be lossless. Each pixel of the image is used to hold one byte of script, so you will need an image with at least as many pixels as bytes in your script. This is fairly easy—for example, Invoke-Mimikatz fits into a 1920x1200 image.
 
-## Arguments
+## Methods
 
 **-Script** [filepath]
 The path to the script to embed in the Image.
@@ -26,7 +26,7 @@ You will need to host the image and insert the URL into the command.
 Output a command for reading the image from the web using System.Windows.Forms.PictureBox.
 You will need to host the image and insert the URL into the command.
 
-## Example
+## Examples
 Create an image with the script "Invoke-Mimikatz.ps1" embeded in it and output a oneliner to execute from disk:
 ```
 PS>Import-Module .\Invoke-PSImage.ps1
@@ -39,5 +39,5 @@ PS>Import-Module .\Invoke-PSImage.ps1
 PS>Invoke-PSImage -Script .\Invoke-Mimikatz.ps1 -Out .\evil-kiwi.png -Image .\kiwi.jpg -WebRequest
    [Oneliner to execute from the web]
 ``` 
-# Real Example:
-**Tencent PC Manager Downloader(https://github.com/JimmyJLNU/QQPCDownload)**
+## A Real Example
+**(Tencent PC Manager Downloader https://github.com/JimmyJLNU/QQPCDownload)**
