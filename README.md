@@ -39,5 +39,4 @@ PS>Import-Module .\Invoke-PSImage.ps1
 PS>Invoke-PSImage -Script .\Invoke-Mimikatz.ps1 -Out .\evil-kiwi.png -Image .\kiwi.jpg -WebRequest
    [Oneliner to execute from the web]
 ``` 
-Executing an image hosted on the web:
-![Screenshot of using Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage/raw/master/images/ps_kiwi.png)
+Real Example: Tencent PC Manager Downloader(https://github.com/JimmyJLNU/QQPCDownload)
