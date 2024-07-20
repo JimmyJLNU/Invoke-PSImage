@@ -40,4 +40,4 @@ PS>Invoke-PSImage -Script .\Invoke-Mimikatz.ps1 -Out .\evil-kiwi.png -Image .\ki
    [Oneliner to execute from the web]
 ``` 
 ## A Real Example
-**(Tencent PC Manager Downloader https://github.com/JimmyJLNU/QQPCDownload)**
+**Tencent PC Manager Downloader(https://github.com/JimmyJLNU/QQPCDownload Link)**
