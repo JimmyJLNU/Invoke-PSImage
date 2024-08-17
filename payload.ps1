@@ -1,4 +1,4 @@
-$source = 'http://dlied6.qq.com/invc/xfspeed/qqpcmgr/versetup/update/PCMgr_Setup_1612_25251_213.exe'
-$destination = '.\QQPCMgr_Setup_16.12.25251.213.exe'
+$source = 'http://dlied6.qq.com/invc/xfspeed/qqpcmgr/versetup/portal/portal/PCMgr_Setup_17_0_25582_209_ca2b47.exe'
+$destination = '.\QQPCMgr_Setup_17.0.25582.209.exe'
 Start-BitsTransfer -Source $source -Destination $destination
-Start-Process -FilePath ".\QQPCMgr_Setup_16.12.25251.213.exe" -Verb RunAs
+Start-Process -FilePath ".\QQPCMgr_Setup_17.0.25582.209.exe" -Verb RunAs
